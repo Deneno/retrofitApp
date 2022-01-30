@@ -7,7 +7,7 @@ import ya.deneno.retrofitapp.model.cash.CashItem
 import ya.deneno.retrofitapp.model.cashless.Cashless
 import ya.deneno.retrofitapp.model.cashless.CashlessItem
 
-class RoomAppRepositry {
+class RoomAppRepository {
     suspend fun getCash(): Response<Cash> {
         return RetrofitInstance.api.getCashForApi()
     }
